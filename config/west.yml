@@ -2,21 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: megamind
-      url-base: https://github.com/megamind4089
-    - name: nicell
-      url-base: https://github.com/nicell
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: careyk007
-      url-base: https://github.com/careyk007
-    - name: innovaker
-      url-base: https://github.com/innovaker
-    - name: okke-formsma
-      url-base: https://github.com/okke-formsma
+    - name: WSTRN
+      url-base: https://github.com/WSTRN
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: WSTRN
       revision: main
       import: app/west.yml
   self:
