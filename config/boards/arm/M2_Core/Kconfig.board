@@ -1,7 +1,7 @@
 
 # Copyright (c) 2020 Stefan Sundin (4pplet)
 # SPDX-License-Identifier: MIT
-
+ 
 
 config BOARD_M2_CORE
 	bool "M2_Core"
